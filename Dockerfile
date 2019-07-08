@@ -1,11 +1,11 @@
 FROM node:8
 
-WORKDIR /srv
+WORKDIR /root
 
-COPY package*.json /srv/
+COPY package*.json /root/
 
 RUN npm install
 
-COPY . /srv/
+COPY . /root/
 
 CMD ["npm", "start"]
