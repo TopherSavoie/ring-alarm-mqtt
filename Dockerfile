@@ -1,5 +1,4 @@
-FROM node:alpine
-
+FROM node:8
 
 WORKDIR /srv
 
