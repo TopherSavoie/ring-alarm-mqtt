@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -
 [Unit]
 Description=ring-alarm-mqtt
 
