@@ -4,6 +4,8 @@ WORKDIR /root
 
 COPY package*.json /root/
 
+RUN chmod +x ring-alarm-mqtt.js
+
 RUN npm install
 
 COPY . /root/
