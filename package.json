@@ -18,8 +18,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/tsightler/ring-alarm-mqtt.git"
+    "url": "git://github.com/TopherSavoie/ring-alarm-mqtt.git"
   },
-  "author": "Tom Sightler (tsightler@gmail.com)",
+  "author": "Topher Savoie (topher.savoie@boo.email)",
   "license": "MIT"
 }
