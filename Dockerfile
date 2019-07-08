@@ -8,4 +8,4 @@ RUN chmod +x ring-alarm-mqtt.js
 
 RUN npm install
 
-CMD ["npm", "start"]
+ENTRYPOINT npm run start
